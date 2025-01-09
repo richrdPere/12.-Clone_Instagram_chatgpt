@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "892793771113",
+    "project_id": "social-media-chatgpt-159e3",
+    "storage_bucket": "social-media-chatgpt-159e3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892793771113:android:3e385d9d20e1d09c233ef8",
+        "android_client_info": {
+          "package_name": "com.richard.socialmediachatgpt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5IK1DWe_0UW3vumDxVThpEMBUYKvJVL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892793771113:android:ce595f00736f05ca233ef8",
+        "android_client_info": {
+          "package_name": "com.richardpereira.socia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5IK1DWe_0UW3vumDxVThpEMBUYKvJVL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
