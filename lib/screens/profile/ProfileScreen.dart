@@ -125,7 +125,25 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           ),
                         ],
                       ),
-                      const SizedBox(height: 20),
+                      Container(
+                        margin: EdgeInsets.only(left: 20),
+                        width: 150,
+                        child: ElevatedButton(
+                          onPressed: () {
+                            Navigator.pushNamed(context, 'profile/edit');
+                          },
+                          child: const Text(
+                            'Editar',
+                            style: TextStyle(color: Colors.black),
+                          ),
+                          style: ElevatedButton.styleFrom(
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                          ),
+                        ),
+                      ),
+                      //const SizedBox(height: 20),
                       const Divider(),
                       const SizedBox(height: 20),
                       const Text(

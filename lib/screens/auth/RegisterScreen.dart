@@ -40,6 +40,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
         'name': _nameController.text.trim(),
         'lastName': _lastNameController.text.trim(),
         'phone': _phoneController.text.trim(),
+        'bio': '',
+        'profileImage': '',
         'createdAt': FieldValue.serverTimestamp(),
       });
 
@@ -141,6 +143,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       borderRadius: BorderRadius.circular(10),
                     ),
                   ),
+                  keyboardType: TextInputType.emailAddress,
                 ),
               ),
               const SizedBox(height: 10),

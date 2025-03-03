@@ -5,6 +5,7 @@ import 'package:social_media_chatgpt/screens/auth/LoginScreen.dart';
 import 'package:social_media_chatgpt/screens/auth/RegisterScreen.dart';
 import 'package:social_media_chatgpt/screens/home/HomeScreen.dart';
 import 'package:social_media_chatgpt/screens/home/SplashScreen.dart';
+import 'package:social_media_chatgpt/screens/profile/EditProfileScreen.dart';
 import 'firebase_options.dart';
 
 void main() async {
@@ -38,6 +39,8 @@ class MyApp extends StatelessWidget {
             const RegisterScreen(), // Define la ruta de registro
         'forgot-password': (BuildContext context) =>
             const ForgotPasswordScreen(), //  Define la ruta de olvidaste contraseña
+        'profile/edit': (BuildContext context) =>
+            EditProfileScreen(), //  Define la ruta de editar perfil
       },
     );
   }

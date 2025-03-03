@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:social_media_chatgpt/screens/feed/FeedScreen.dart';
+import 'package:social_media_chatgpt/screens/post/CreatePostScreen.dart';
 import 'package:social_media_chatgpt/screens/post/PostScreen.dart';
 import 'package:social_media_chatgpt/screens/profile/ProfileScreen.dart';
 import 'package:social_media_chatgpt/screens/search/SearchScreen.dart';
@@ -22,8 +23,8 @@ class _HomeScreenState extends State<HomeScreen> {
     const Center(
       child: SearchScreen(),
     ), // Búsqueda
-    const Center(
-      child: PostScreen(),
+    Center(
+      child: CreatePostScreen(),
     ), // Publicaciones
     const Center(
       child: ProfileScreen(),
